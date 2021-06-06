@@ -29,7 +29,7 @@ class Track():
         talks = {}
         lines = []
         try:
-            lines = [line.strip() for line in open('test.txt')]
+            lines = [line.strip() for line in open('input.txt')]
         except FileNotFoundError as e:
             print('File Not Found', e)
         for line in lines:
