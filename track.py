@@ -23,8 +23,7 @@ class Track():
 
     def extract_input_from_file(self):
         """
-        This function reads the lines from the text input file and stores all tasks in 
-        dictionary with their respective time. (negative indexing raises error, so it means it's lightning)
+        This function reads the lines from the text input file and stores all tasks in dictionary with their respective time. (negative indexing raises error, so it means it's lightning)
         """
         talks = {}
         lines = []
